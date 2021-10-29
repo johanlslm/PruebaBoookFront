@@ -34,4 +34,26 @@
          }
       }
    }
+   @media (min-width: 1080px) {
+      .title{
+         h1 {
+            font-size: 4rem;
+         }
+      }
+      .menu {
+         a {
+            padding: 8px 5px;
+         }
+      }
+      
+   }
+
+   @media (min-width: 1024px) {
+      .title {
+         h1 {
+            font-size: 4rem;
+         }
+      }
+   }
+
 }
