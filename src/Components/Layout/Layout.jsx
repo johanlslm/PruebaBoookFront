@@ -6,11 +6,15 @@ import { withRouter } from "react-router-dom";
 
 const Layout = withRouter(({ children }) => {
    return (
-      <div className="container">
-         <Header />
+      <>
+         <div className="container">
+            <Header />
+         </div>
          {children}
-         <Footer />
-      </div>
+         <div className="container">
+            <Footer />
+         </div>
+      </>
    );
 });
 

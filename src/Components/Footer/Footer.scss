@@ -1,0 +1,47 @@
+footer {
+    padding: 50px 0px;
+    .links {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-bottom: 50px;
+        div {
+            h3 {
+                font-weight: 800;
+                margin-bottom: 30px;
+            }
+            ul {
+                list-style: none;
+                li {
+                    font-size: 0.9rem;
+                    margin-bottom: 10px;
+                    a {
+                        color: #444444;
+                        font-weight: 400;
+                    }
+                }
+                &.social {
+                    display: flex;
+                    justify-content: flex-start;
+                    li {
+                        a {
+                            font-size: 2.3rem;
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+            p {
+                font-weight: 300;
+                margin-bottom: 3px;
+            }
+        }
+    }
+    .copy {
+        margin: 20px;
+        display: block;
+        width: 100%;
+        font-weight: 300;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
