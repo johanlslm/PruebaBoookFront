@@ -4,7 +4,7 @@ import "./CardImage.scss";
 const CardImage = () => {
     const cards = [
         {
-            img: '/images/card01.jpg' ,
+            img: '/images/card01.jpg',
             key: 'card_01',
             title: 'Put something here',
             subtitle: 'Maybe here as well I think',
@@ -26,16 +26,16 @@ const CardImage = () => {
         }
     ]
     return (
-        
+
 
         <section className="section_cards">
-            {cards.map((card) =>(
+            {cards.map((card) => (
                 <div className="card" key={card.key} >
                     <div className="card_image">
                         <img alt={card.title} src={card.img} />
                         <h3>{card.title}</h3>
                     </div>
-                    <div className="card_text"> 
+                    <div className="card_text">
                         <h4>{card.subtitle}</h4>
                         <p>{card.body}</p>
                     </div>
@@ -47,4 +47,4 @@ const CardImage = () => {
 
 export default CardImage;
 
-    
+
